@@ -28,3 +28,19 @@ a {
   background-color: #ff0000;
   background-image: linear-gradient(120deg, #de1e09, #ff0000);
 }
+.project-tagline {
+  color: #de1e09;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 10px 25px;
+  text-transform: uppercase;
+
+  @include large {
+    font-size: 1.1875rem;
+  }
+
+  @include medium {
+    font-size: 1.0625rem;
+  }
+}
