@@ -44,3 +44,25 @@ a {
     font-size: 1.0625rem;
   }
 }
+
+
+.project-name {
+  background-image: url("../../logo/BannerSuitecase.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 130px;
+  margin: 0;
+
+  @include large {
+    height: 190px;
+  }
+
+  @include medium {
+    height: 160px;
+  }
+
+  span {
+    @include sr-only();
+  }
+}
