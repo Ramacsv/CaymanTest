@@ -50,7 +50,8 @@ a {
 
 @mixin sr-only {
   border: 0;
-  clip-path: inset(50%);
+  //clip-path: inset(50%);
+  clip-path: inset(100%);
   clip: rect(0, 0, 0, 0);
   height: 1px;
   overflow: hidden;
@@ -65,8 +66,8 @@ a {
   background-image: url("../../logo/BannerSuitecaseD.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  // background-size: contain;
+  //background-size: cover;
+  background-size: contain;
   height: 130px;
   margin: 0;
 
