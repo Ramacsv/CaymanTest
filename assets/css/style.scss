@@ -68,7 +68,7 @@ a {
   background-repeat: no-repeat;
   //background-size: cover;
   background-size: contain;
-  height: 130px;
+  height: 2000px;
   margin: 0;
 
   @include large {
@@ -80,6 +80,6 @@ a {
   }
 
   span {
-    @include sr-only();
+ //   @include sr-only();
   }
 }
