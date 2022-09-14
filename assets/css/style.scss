@@ -4,6 +4,13 @@
 
 @import "jekyll-theme-cayman"; 
 
+ h1
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+    color: #ff0000;
+  }
 
 
 .main-content {
