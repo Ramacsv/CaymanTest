@@ -72,10 +72,10 @@ a {
 .project-name {
   background-image: url("../../logo/BannerSuitecaseD.svg");
   background-position: center;
- background-repeat: n0-repeat;
-// background-size: auto;
-  background-size: 100%;
- height: 400px;
+ background-repeat: no-repeat;
+ background-size: auto;
+ // background-size: 100%;
+// height: 400px;
   margin: 0;
 
   @include large {
