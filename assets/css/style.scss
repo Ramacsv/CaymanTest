@@ -36,6 +36,7 @@ a {
   background-color: #ff0000;
 //  background-image: linear-gradient(220deg, #edc9af, #ffffff);
  background:  url("../../logo/BannerSuitecaseD.svg") center  no-repeat, linear-gradient(220deg, #edc9af, #fc1803);
+ background-size: cover;
  
    @include large {
     padding: 0px 10px;
