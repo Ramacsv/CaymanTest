@@ -33,7 +33,8 @@ a {
   color: #ff9505;
   text-align: center;
   background-color: #ff0000;
-  background-image: linear-gradient(220deg, #edc9af, #ffffff);
+//  background-image: linear-gradient(220deg, #edc9af, #ffffff);
+ background:  url("../../logo/BannerSuitecaseD.svg") 0 0, linear-gradient(220deg, #edc9af, #ffffff);
   
 
 }
@@ -70,7 +71,7 @@ a {
 
 
 .project-name {
-  background-image: url("../../logo/BannerSuitecaseD.svg");
+//  background-image: url("../../logo/BannerSuitecaseD.svg");
   background-position: center;
  background-repeat: no-repeat;
 // background-size: auto;
